@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+.BG{
+  background-color:red;
+  width: 750rpx;
+  height: 750rpx;
+}
+.styleMap{
+  width: 500rpx;
+  height: 600rpx;
+}

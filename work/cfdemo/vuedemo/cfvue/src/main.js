@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import $ from 'jquery'
+import weui from 'weui'
+
 
 Vue.config.productionTip = false
 
