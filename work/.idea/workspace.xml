@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cfdemo/vuedemo/cfvue/src/assets/prove" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cfdemo/vuedemo/cfvue/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\work\cfdemo\vuedemo\cfvue\src\components" />
       <recent name="E:\Users\work\cfdemo\vuedemo\cfvue\src\assets\prove" />
     </key>
   </component>
@@ -64,7 +65,7 @@
       <workItem from="1565600585332" duration="611000" />
       <workItem from="1565663944708" duration="5089000" />
       <workItem from="1565745520854" duration="8711000" />
-      <workItem from="1566263268546" duration="87388000" />
+      <workItem from="1566263268546" duration="105673000" />
     </task>
     <servers />
   </component>

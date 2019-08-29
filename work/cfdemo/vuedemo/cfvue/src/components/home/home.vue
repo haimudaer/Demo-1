@@ -80,7 +80,8 @@
         </div>
       </label>
     </div>
-    <div :class="!nextStatus ? 'next-event' : 'ok-next-event' ">下一步</div>
+    <div :class="!nextStatus ? 'next-event' : 'ok-next-event' " @click="nextstep">下一步</div>
+    <router-link to="/user" style="font-size: 16px;">隐私政策</router-link>
   </div>
 
 </template>
@@ -157,12 +158,11 @@
             },
             changeCheck: function (e) {
                 console.log(e);
-                console.log(e.target.checked)
+                console.log(e.target.checked);
                 this.nextStatus = true
             },
             changeUnfold:function () {
                 if (!this.unfold){
-                    console.log(this.$refs.imgFold);
                     this.$refs.imgFold.style.cssText = "transform:rotate(-180deg);transition:.5s;";
                     this.$refs.unfolds.style.cssText = "transition:5s;";
                     this.unfold = true;
@@ -171,6 +171,9 @@
                     this.$refs.unfolds.style.cssText = "transition:5s;";
                     this.unfold = false;
                 }
+            },
+            nextstep:function () {
+                this.$router.push('/user?id=4')
             }
         },
         created() {
@@ -188,7 +191,6 @@
 </script>
 
 <style scoped lang="less">
-
   .f-div {
     .weui-cells_checkbox:before{
       border: none;
@@ -255,7 +257,6 @@
       }
     }
   }
-
   .weui-cells_checkbox .weui-icon-checked:before {
     font-size: .22rem;
   }

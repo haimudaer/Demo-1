@@ -51,7 +51,25 @@
 <!--获取电脑IP地址兼容所有浏览器-->
 <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript">
-    document.write(returnCitySN["cip"]+','+returnCitySN["cname"])
-    console.log(returnCitySN)
+    document.write(returnCitySN["cip"]+','+returnCitySN["cname"]);
+    console.log(returnCitySN);
+    console.log(!'');
+    console.log(Boolean(''));
+    let str = "20170909"
+    console.log(str.substr(0,4))
+    console.log(str.substr(4,2))
+    console.log(str.substr(6,2))
+    let a = "4";
+    console.log(a * 1 === 4)
+    console.log(typeof a)
+    let b = []
+    let c = []
+    console.log(!b.length&&!c.length)
+    const  data = {
+        data:"8888"
+    }
+    data.name = "zahngdan",
+    data.data = "zahngdan",
+    console.log(data)
 </script>
 </html>
